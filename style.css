@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60vh;
+    margin-top: 3rem;
+
+}
+.container .card{
+    border: solid 3px color-mix(in srgb, rgb(2, 2, 2) 50%, #000000 50%);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    position: relative;
+    border-radius: 10px;
+    transform: rotate(5deg);
+  
+}
+.card .content{
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; 
+   padding: 10px;
+   position: absolute;
+   bottom: 0;
+   text-align: center;
+   background-color: #4444;
+   color: #d8d8d8;
+   
+}
+
+.cards:hover .content{
+  opacity: 1;
+
+}
+ .cards:hover{
+    flex: 6;
+    background-size: cover; 
+}
+
+.container #card_1{
+    background-image: url(./Assets/img/pic2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+.container #card_2{
+    background-image: url(./Assets/img/pic3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}.container #card_3{
+    background-image: url(./Assets/img/pic4.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+ 
+.container #card_4{
+    background-image: url(./Assets/img/pic5.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+ 
+}
+
+.container #card_5{
+    background-image: url(./Assets/img/pic6.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+.container #card_6{
+    background-image: url(./Assets/img/pic7.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+.container #card_7{
+    background-image: url(./Assets/img/pic8.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
